@@ -5,7 +5,7 @@ jobs:
       - run: echo Hello World
       - uses: actions/checkout@v2
       - run: g++ 02.12.cpp
-      - run: ./02.12
+      - run: ./main
     runs-on: ${{matrix.platform}}
     strategy:
       matrix:
