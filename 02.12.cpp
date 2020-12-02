@@ -6,6 +6,6 @@ int main() {
     random_device a;
     mt19937 losowanie(a());
     uniform_int_distribution<> zbior(1,7);
-
-    return zbior(losowanie);
+    
+    return 0;
 }
